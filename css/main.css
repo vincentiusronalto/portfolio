@@ -31,6 +31,7 @@ h2,
 h3,
 p {
     margin: 0;
+    text-align: center;
 }
 
 h1,
@@ -93,6 +94,8 @@ section {
 .split_row{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (min-width: 40em) {
@@ -134,16 +137,17 @@ section {
     width: 5rem;
     color: white;
     border: 1px solid white;
-    background: #3498db;
+    background: #34495e;
     text-align: center;
     cursor: pointer;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 
 .button:hover{
-    border: 1px solid #3498db;
+    border: 1px solid #34495e;
     background: white;
-    color: #3498db;
+    color: #34495e;
 }
 
 .button:first-child{
@@ -154,9 +158,10 @@ section {
 #header-top{
     position: relative;
     /* background: #0099ff; */
-    background: #5000ca;
+    /* background: #5000ca; */
+    background: #34495e;
     z-index: 10;
-    min-height: 30rem;
+    min-height: 23rem;
     ;
     
 }
