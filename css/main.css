@@ -19,7 +19,7 @@
 
 body {
     font-family: var(--ff-primary);
-    font-weight: 400;
+    font-weight: 200;
     font-size: 1.3125rem;
     line-height: 1.6;
     
@@ -38,7 +38,7 @@ h2,
 h3 {
     color: var(--clr-primary-400);
     font-family: var(--ff-accent);
-    font-weight: 900;
+    font-weight: 500;
     line-height: 1;
     margin-bottom: 1em;
 }
@@ -156,7 +156,7 @@ section {
     /* background: #0099ff; */
     background: #5000ca;
     z-index: 10;
-    min-height: 300px;
+    min-height: 30rem;
     ;
     
 }
